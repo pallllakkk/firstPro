@@ -2,6 +2,10 @@
     background-color: #0A4D68;
     height: 120px;
 }
+@media screen and (max-width: 972px) {
+  #title {
+    height: 240px;
+  }}
 .body{
     font-family: Montserrat-Black ;
     text-align: center;
@@ -11,6 +15,9 @@
 }
 .navbar{
     height: 5%;
+}
+.nav-link{
+  color: #05BFDB;
 }
 .navbar_brand{
     text-decoration: none;
